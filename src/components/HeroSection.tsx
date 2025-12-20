@@ -10,7 +10,7 @@ const HeroSection = () => {
       <div className="container mx-auto px-6 py-20 relative z-10">
         <div className="grid lg:grid-cols-2 gap-12 lg:gap-20 items-center">
           {/* Left content */}
-          <div className="text-center lg:text-left order-2 lg:order-1">
+          <div className="relative z-20 text-center lg:text-left order-2 lg:order-1">
             {/* Badge */}
             <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-muted/50 border border-border/50 mb-6">
               <span className="w-2 h-2 rounded-full bg-primary animate-pulse" />
@@ -90,7 +90,7 @@ const HeroSection = () => {
           </div>
 
           {/* Right - NFT Showcase */}
-          <div className="order-1 lg:order-2 flex justify-center animate-float">
+          <div className="relative z-10 order-1 lg:order-2 flex justify-center animate-float">
             <div className="w-full max-w-md lg:max-w-lg">
               <NFTShowcase />
             </div>
