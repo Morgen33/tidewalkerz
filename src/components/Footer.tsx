@@ -1,8 +1,9 @@
+import { forwardRef } from 'react';
 import { Button } from '@/components/ui/button';
 
-const Footer = () => {
+const Footer = forwardRef<HTMLElement>((_, ref) => {
   return (
-    <footer className="relative py-16 border-t border-border/30">
+    <footer ref={ref} className="relative py-16 border-t border-border/30">
       <div className="container mx-auto px-6">
         <div className="flex flex-col md:flex-row items-center justify-between gap-8">
           {/* Logo & Copyright */}
@@ -58,6 +59,8 @@ const Footer = () => {
       </div>
     </footer>
   );
-};
+});
+
+Footer.displayName = 'Footer';
 
 export default Footer;
