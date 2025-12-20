@@ -1,11 +1,14 @@
 import { Button } from '@/components/ui/button';
 import NFTShowcase from './NFTShowcase';
-import WaveBackground from './WaveBackground';
+import InteractiveWaveShader from '@/components/ui/flowing-waves-shader';
 
 const HeroSection = () => {
   return (
     <section className="relative min-h-screen flex items-center justify-center overflow-hidden pt-20">
-      <WaveBackground />
+      <InteractiveWaveShader dimmingDisabled />
+      
+      {/* Dark overlay for better text readability */}
+      <div className="absolute inset-0 bg-background/40 z-[1]" />
       
       <div className="container mx-auto px-6 py-20 relative z-10">
         <div className="grid lg:grid-cols-2 gap-12 lg:gap-20 items-center">
