@@ -44,7 +44,7 @@ const WaveBackground = () => {
             style={{ animationDelay: '-4s' }}
           >
             <path
-              fill="hsl(var(--fire-orange) / 0.2)"
+              fill="hsl(var(--steel-blue) / 0.3)"
               d="M0,192L48,208C96,224,192,256,288,261.3C384,267,480,245,576,224C672,203,768,181,864,181.3C960,181,1056,203,1152,208C1248,213,1344,203,1392,197.3L1440,192L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"
             />
           </svg>
@@ -60,9 +60,9 @@ const WaveBackground = () => {
           >
             <defs>
               <linearGradient id="waveGradient" x1="0%" y1="0%" x2="100%" y2="0%">
-                <stop offset="0%" stopColor="hsl(var(--fire-gold))" stopOpacity="0.6" />
+                <stop offset="0%" stopColor="hsl(var(--ocean-cyan))" stopOpacity="0.6" />
                 <stop offset="50%" stopColor="hsl(var(--primary))" stopOpacity="0.8" />
-                <stop offset="100%" stopColor="hsl(var(--fire-orange))" stopOpacity="0.6" />
+                <stop offset="100%" stopColor="hsl(var(--ocean-light))" stopOpacity="0.6" />
               </linearGradient>
             </defs>
             <path
@@ -77,7 +77,7 @@ const WaveBackground = () => {
       <div className="absolute bottom-0 left-1/2 -translate-x-1/2 w-[120%] h-[60%] bg-gradient-radial from-primary/20 via-transparent to-transparent" 
            style={{ background: 'radial-gradient(ellipse at center bottom, hsl(var(--primary) / 0.15) 0%, transparent 70%)' }} />
       
-      {/* Particle effects - floating embers */}
+      {/* Particle effects - floating bubbles */}
       <div className="absolute inset-0">
         {[...Array(20)].map((_, i) => (
           <div

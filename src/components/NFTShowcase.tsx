@@ -4,10 +4,10 @@ const NFTShowcase = () => {
   return (
     <div className="relative group">
       {/* Outer glow ring */}
-      <div className="absolute -inset-4 bg-gradient-to-r from-fire-gold via-primary to-fire-orange rounded-2xl opacity-20 blur-xl group-hover:opacity-40 transition-opacity duration-500 animate-pulse-glow" />
+      <div className="absolute -inset-4 bg-gradient-to-r from-ocean-cyan via-primary to-ocean-light rounded-2xl opacity-20 blur-xl group-hover:opacity-40 transition-opacity duration-500 animate-pulse-glow" />
       
       {/* Inner glow */}
-      <div className="absolute -inset-1 bg-gradient-to-r from-fire-gold via-primary to-fire-orange rounded-xl opacity-50 blur-sm" />
+      <div className="absolute -inset-1 bg-gradient-to-r from-ocean-cyan via-primary to-ocean-light rounded-xl opacity-50 blur-sm" />
       
       {/* Main image container */}
       <div className="relative overflow-hidden rounded-xl border-glow">
@@ -26,7 +26,7 @@ const NFTShowcase = () => {
 
       {/* Floating badge */}
       <div className="absolute -bottom-3 left-1/2 -translate-x-1/2 bg-card border-glow px-6 py-2 rounded-full">
-        <span className="text-sm font-display text-gradient-fire font-bold tracking-wider">
+        <span className="text-sm font-display text-gradient-ocean font-bold tracking-wider">
           #001 / 1,100
         </span>
       </div>

@@ -15,8 +15,8 @@ const buttonVariants = cva(
         secondary: "bg-secondary text-secondary-foreground hover:bg-secondary/80",
         ghost: "hover:bg-accent hover:text-accent-foreground",
         link: "text-primary underline-offset-4 hover:underline",
-        mint: "bg-gradient-to-r from-fire-gold via-primary to-fire-orange text-primary-foreground font-display font-bold uppercase tracking-wider shadow-[0_0_20px_hsl(var(--primary)/0.4)] hover:scale-105 hover:shadow-[0_0_40px_hsl(var(--primary)/0.6)] active:scale-95",
-        hero: "bg-transparent border-2 border-primary/50 text-foreground font-display uppercase tracking-wider hover:bg-primary/10 hover:border-primary hover:shadow-[0_0_30px_hsl(var(--primary)/0.3)]",
+        mint: "bg-gradient-to-r from-ocean-cyan via-primary to-ocean-light text-primary-foreground font-display font-bold uppercase tracking-wider shadow-[0_0_20px_hsl(var(--primary)/0.4)] hover:scale-105 hover:shadow-[0_0_40px_hsl(var(--primary)/0.6)] active:scale-95",
+        hero: "bg-secondary/80 border-2 border-primary/50 text-foreground font-display uppercase tracking-wider hover:bg-primary/20 hover:border-primary hover:shadow-[0_0_30px_hsl(var(--primary)/0.3)]",
         social: "bg-muted/50 text-foreground hover:bg-muted hover:text-primary border border-border/50 hover:border-primary/30",
       },
       size: {

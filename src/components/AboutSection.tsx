@@ -17,9 +17,9 @@ const AboutSection = () => {
           <blockquote className="mb-12">
             <p className="font-display text-2xl sm:text-3xl lg:text-4xl text-foreground leading-relaxed mb-6">
               "Figurative concept artworks, each piece symbolizing a 
-              <span className="text-gradient-fire"> strong, unified force </span>
+              <span className="text-gradient-ocean"> strong, unified force </span>
               moving with the inevitability and power of an 
-              <span className="text-gradient-fire"> unstoppable wave of change.</span>"
+              <span className="text-gradient-ocean"> unstoppable wave of change.</span>"
             </p>
           </blockquote>
 
@@ -33,7 +33,7 @@ const AboutSection = () => {
           {/* Features grid */}
           <div className="grid sm:grid-cols-3 gap-8">
             <div className="p-6 rounded-xl bg-card/50 border border-border/50 hover:border-primary/30 transition-colors group">
-              <div className="w-14 h-14 mx-auto mb-4 rounded-xl bg-gradient-to-br from-fire-gold/20 to-primary/20 flex items-center justify-center group-hover:scale-110 transition-transform">
+              <div className="w-14 h-14 mx-auto mb-4 rounded-xl bg-gradient-to-br from-ocean-cyan/20 to-primary/20 flex items-center justify-center group-hover:scale-110 transition-transform">
                 <svg className="w-7 h-7 text-primary" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 11c0 3.517-1.009 6.799-2.753 9.571m-3.44-2.04l.054-.09A13.916 13.916 0 008 11a4 4 0 118 0c0 1.017-.07 2.019-.203 3m-2.118 6.844A21.88 21.88 0 0015.171 17m3.839 1.132c.645-2.266.99-4.659.99-7.132A8 8 0 008 4.07M3 15.364c.64-1.319 1-2.8 1-4.364 0-1.457.39-2.823 1.07-4" />
                 </svg>
@@ -43,7 +43,7 @@ const AboutSection = () => {
             </div>
 
             <div className="p-6 rounded-xl bg-card/50 border border-border/50 hover:border-primary/30 transition-colors group">
-              <div className="w-14 h-14 mx-auto mb-4 rounded-xl bg-gradient-to-br from-fire-gold/20 to-primary/20 flex items-center justify-center group-hover:scale-110 transition-transform">
+              <div className="w-14 h-14 mx-auto mb-4 rounded-xl bg-gradient-to-br from-ocean-cyan/20 to-primary/20 flex items-center justify-center group-hover:scale-110 transition-transform">
                 <svg className="w-7 h-7 text-primary" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z" />
                 </svg>
@@ -53,7 +53,7 @@ const AboutSection = () => {
             </div>
 
             <div className="p-6 rounded-xl bg-card/50 border border-border/50 hover:border-primary/30 transition-colors group">
-              <div className="w-14 h-14 mx-auto mb-4 rounded-xl bg-gradient-to-br from-fire-gold/20 to-primary/20 flex items-center justify-center group-hover:scale-110 transition-transform">
+              <div className="w-14 h-14 mx-auto mb-4 rounded-xl bg-gradient-to-br from-ocean-cyan/20 to-primary/20 flex items-center justify-center group-hover:scale-110 transition-transform">
                 <svg className="w-7 h-7 text-primary" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 10V3L4 14h7v7l9-11h-7z" />
                 </svg>

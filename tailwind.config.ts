@@ -51,16 +51,17 @@ export default {
           DEFAULT: "hsl(var(--card))",
           foreground: "hsl(var(--card-foreground))",
         },
-        fire: {
-          orange: "hsl(var(--fire-orange))",
-          gold: "hsl(var(--fire-gold))",
-        },
         ocean: {
           deep: "hsl(var(--ocean-deep))",
           wave: "hsl(var(--ocean-wave))",
+          light: "hsl(var(--ocean-light))",
+          cyan: "hsl(var(--ocean-cyan))",
         },
-        navy: {
-          dark: "hsl(var(--navy-dark))",
+        steel: {
+          blue: "hsl(var(--steel-blue))",
+        },
+        slate: {
+          gray: "hsl(var(--slate-gray))",
         },
         sidebar: {
           DEFAULT: "hsl(var(--sidebar-background))",
