@@ -8,10 +8,10 @@ const Footer = () => {
           {/* Logo & Copyright */}
           <div className="text-center md:text-left">
             <div className="flex items-center justify-center md:justify-start gap-3 mb-3">
-              <div className="w-8 h-8 rounded-lg bg-gradient-to-br from-fire-gold to-primary flex items-center justify-center">
+              <div className="w-8 h-8 rounded-lg bg-gradient-to-br from-ocean-cyan to-primary flex items-center justify-center">
                 <span className="font-display font-bold text-primary-foreground text-sm">T</span>
               </div>
-              <span className="font-display font-bold tracking-wider text-gradient-fire">
+              <span className="font-display font-bold tracking-wider text-gradient-ocean">
                 TIDEWALKERZ
               </span>
             </div>

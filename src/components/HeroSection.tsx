@@ -21,7 +21,7 @@ const HeroSection = () => {
 
             {/* Title */}
             <h1 className="font-display font-black text-5xl sm:text-6xl lg:text-7xl mb-6 leading-tight">
-              <span className="text-gradient-fire glow-text">TIDE</span>
+              <span className="text-gradient-ocean glow-text">TIDE</span>
               <br />
               <span className="text-foreground">WALKERZ</span>
             </h1>
@@ -36,7 +36,7 @@ const HeroSection = () => {
             {/* Stats */}
             <div className="flex flex-wrap justify-center lg:justify-start gap-8 mb-10">
               <div className="text-center">
-                <div className="font-display font-bold text-3xl text-gradient-fire">1,100</div>
+                <div className="font-display font-bold text-3xl text-gradient-ocean">1,100</div>
                 <div className="text-sm text-muted-foreground">Total Supply</div>
               </div>
               <div className="text-center">
@@ -49,14 +49,15 @@ const HeroSection = () => {
               </div>
             </div>
 
-            {/* CTAs */}
+            {/* CTAs - Fixed layout */}
             <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
               <a 
                 href="https://launchmynft.io/collections/7xmiZJjReKvmzcFZy2EFUhknLmtYyHugz8hSMNDvuvcx/RiXjb9QcqNU3E6uJFKn6"
                 target="_blank"
                 rel="noopener noreferrer"
+                className="w-full sm:w-auto"
               >
-                <Button variant="mint" size="xl" className="w-full sm:w-auto">
+                <Button variant="mint" size="xl" className="w-full">
                   Mint Your TideWalker
                 </Button>
               </a>
@@ -64,8 +65,9 @@ const HeroSection = () => {
                 href="https://twitter.com/TideWalkerz"
                 target="_blank"
                 rel="noopener noreferrer"
+                className="w-full sm:w-auto"
               >
-                <Button variant="hero" size="xl" className="w-full sm:w-auto">
+                <Button variant="hero" size="xl" className="w-full">
                   Join Community
                 </Button>
               </a>
