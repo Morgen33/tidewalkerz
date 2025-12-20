@@ -1,6 +1,8 @@
-const AboutSection = () => {
+import { forwardRef } from 'react';
+
+const AboutSection = forwardRef<HTMLElement>((_, ref) => {
   return (
-    <section id="about" className="relative py-32 overflow-hidden">
+    <section ref={ref} id="about" className="relative py-32 overflow-hidden">
       {/* Background texture */}
       <div className="absolute inset-0 bg-gradient-to-b from-background via-muted/20 to-background" />
       
@@ -66,6 +68,8 @@ const AboutSection = () => {
       </div>
     </section>
   );
-};
+});
+
+AboutSection.displayName = 'AboutSection';
 
 export default AboutSection;
