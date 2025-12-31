@@ -30,6 +30,14 @@ const Header = () => {
           >
             Twitter
           </a>
+          <a 
+            href="https://discord.gg/ZuRQuupJ5v" 
+            target="_blank" 
+            rel="noopener noreferrer"
+            className="text-muted-foreground hover:text-foreground transition-colors font-medium"
+          >
+            Discord
+          </a>
         </nav>
 
         {/* CTA */}

@@ -65,7 +65,7 @@ const HeroSection = () => {
                 </Button>
               </a>
               <a 
-                href="https://twitter.com/TideWalkerz"
+                href="https://discord.gg/ZuRQuupJ5v"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="w-full sm:w-auto"
