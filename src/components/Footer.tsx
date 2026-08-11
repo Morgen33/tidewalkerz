@@ -17,7 +17,7 @@ const Footer = forwardRef<HTMLElement>((_, ref) => {
               </span>
             </div>
             <p className="text-sm text-muted-foreground">
-              © 2024 TideWalkerz. All rights reserved.
+              © 2026 TideWalkerz. All rights reserved.
             </p>
           </div>
 
