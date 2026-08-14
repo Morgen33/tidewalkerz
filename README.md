@@ -6,7 +6,6 @@ An NFT collection on Solana founded by [Blessed Sam](https://twitter.com/Blessed
 
 ## Links
 
-- **Mint:** [LaunchMyNFT](https://launchmynft.io/collections/7xmiZJjReKvmzcFZy2EFUhknLmtYyHugz8hSMNDvuvcx/RiXjb9QcqNU3E6uJFKn6)
 - **Magic Eden:** [tidewalkerz](https://magiceden.io/marketplace/tidewalkerz)
 - **Tensor:** [tidewalkerz](https://www.tensor.trade/trade/tidewalkerz)
 - **Discord:** [Join the community](https://discord.gg/ZuRQuupJ5v)

@@ -7,9 +7,12 @@ const MarketsSection = () => {
       <div className="container mx-auto px-6 relative z-10">
         <div className="text-center mb-10">
           <p className="text-xs font-display tracking-[0.28em] text-primary mb-3">TRADE THE WAVE</p>
-          <h2 className="font-display font-black text-3xl sm:text-4xl text-foreground">
+          <h2 className="font-display font-black text-3xl sm:text-4xl text-foreground mb-3">
             Markets
           </h2>
+          <p className="text-muted-foreground max-w-xl mx-auto">
+            The collection is minted out. Grab a TideWalker on secondary.
+          </p>
         </div>
 
         <div className="grid md:grid-cols-2 gap-5 max-w-4xl mx-auto">

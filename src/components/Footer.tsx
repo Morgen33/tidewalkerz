@@ -26,11 +26,6 @@ const Footer = () => {
             <h3 className="font-display text-xs tracking-[0.24em] text-primary mb-4">MARKETS</h3>
             <ul className="space-y-2 text-sm text-muted-foreground">
               <li>
-                <a href={LINKS.mint} target="_blank" rel="noopener noreferrer" className="hover:text-primary transition-colors">
-                  Mint
-                </a>
-              </li>
-              <li>
                 <a href={LINKS.magicEden} target="_blank" rel="noopener noreferrer" className="hover:text-primary transition-colors">
                   Magic Eden
                 </a>
@@ -117,9 +112,9 @@ const Footer = () => {
             </a>
           </div>
 
-          <a href={LINKS.mint} target="_blank" rel="noopener noreferrer">
+          <a href={LINKS.magicEden} target="_blank" rel="noopener noreferrer">
             <Button variant="mint" size="lg">
-              Mint on LaunchMyNFT
+              Trade on Magic Eden
             </Button>
           </a>
         </div>

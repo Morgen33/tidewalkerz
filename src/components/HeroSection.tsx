@@ -42,7 +42,7 @@ const HeroSection = () => {
             <div className="hero-kicker inline-flex items-center gap-2 px-4 py-2 rounded-full bg-primary/10 border border-primary/30 mb-6 backdrop-blur-md">
               <span className="w-2 h-2 rounded-full bg-primary animate-pulse" />
               <span className="text-xs font-display tracking-[0.22em] text-primary">
-                1,100 ON SOLANA
+                MINTED OUT · TRADE SECONDARY
               </span>
             </div>
 
@@ -73,29 +73,24 @@ const HeroSection = () => {
             </div>
 
             <div className="flex flex-col sm:flex-row gap-3 justify-center lg:justify-start mb-3">
-              <a href={LINKS.mint} target="_blank" rel="noopener noreferrer" className="hero-cta w-full sm:w-auto">
-                <Button variant="mint" size="xl" className="w-full">
-                  Mint Your TideWalker
-                </Button>
-              </a>
-              <a href={LINKS.discord} target="_blank" rel="noopener noreferrer" className="hero-cta w-full sm:w-auto">
-                <Button variant="hero" size="xl" className="w-full">
-                  Join Community
-                </Button>
-              </a>
-            </div>
-
-            <div className="flex flex-col sm:flex-row gap-3 justify-center lg:justify-start">
               <a href={LINKS.magicEden} target="_blank" rel="noopener noreferrer" className="hero-cta w-full sm:w-auto">
-                <Button variant="social" size="lg" className="w-full">
-                  <MagicEdenIcon className="w-4 h-4" />
+                <Button variant="mint" size="xl" className="w-full">
+                  <MagicEdenIcon className="w-5 h-5" />
                   Magic Eden
                 </Button>
               </a>
               <a href={LINKS.tensor} target="_blank" rel="noopener noreferrer" className="hero-cta w-full sm:w-auto">
-                <Button variant="social" size="lg" className="w-full">
-                  <TensorIcon className="w-4 h-4" />
+                <Button variant="hero" size="xl" className="w-full">
+                  <TensorIcon className="w-5 h-5" />
                   Tensor
+                </Button>
+              </a>
+            </div>
+
+            <div className="flex justify-center lg:justify-start">
+              <a href={LINKS.discord} target="_blank" rel="noopener noreferrer" className="hero-cta w-full sm:w-auto">
+                <Button variant="social" size="lg" className="w-full">
+                  Join Community
                 </Button>
               </a>
             </div>

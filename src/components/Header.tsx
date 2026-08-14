@@ -36,14 +36,14 @@ const Header = () => {
         </nav>
 
         <div className="flex items-center gap-2">
-          <a href={LINKS.magicEden} target="_blank" rel="noopener noreferrer" className="hidden md:block">
+          <a href={LINKS.tensor} target="_blank" rel="noopener noreferrer" className="hidden md:block">
             <Button variant="hero" size="sm">
-              Magic Eden
+              Tensor
             </Button>
           </a>
-          <a href={LINKS.mint} target="_blank" rel="noopener noreferrer">
+          <a href={LINKS.magicEden} target="_blank" rel="noopener noreferrer">
             <Button variant="mint" size="sm">
-              Mint Now
+              Magic Eden
             </Button>
           </a>
         </div>
